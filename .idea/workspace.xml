@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="573a9f31-5854-4dc8-b920-78598c19b99a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/funwithclojure/recursion/recursion.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -97,7 +96,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="ReplState" timestamp="1546610919205">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1546611233530">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -168,16 +167,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546606556337</updated>
-      <workItem from="1546606558160" duration="4356000" />
+      <workItem from="1546606558160" duration="4670000" />
     </task>
+    <task id="LOCAL-00001" summary="implementation of factorial as a form of recursion">
+      <created>1546611197180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546611197180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4356000" />
+    <option name="totallyTimeSpent" value="4670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -190,7 +196,7 @@
       <window_info anchor="bottom" id="Studio Actions" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="4" sideWeight="0.49932885" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.2785235" weight="0.562323" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spec Violations" order="7" />
@@ -203,7 +209,7 @@
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="16" />
-      <window_info active="true" anchor="bottom" id="REPL" order="17" sideWeight="0.7214765" side_tool="true" visible="true" weight="0.562323" />
+      <window_info anchor="bottom" id="REPL" order="17" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -259,6 +265,36 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implementation of factorial as a form of recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of factorial as a form of recursion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/funwithclojure/count.clj">
