@@ -12,6 +12,21 @@
 ;any values greater than 20 with result in ArithmeticException integer overflow  clojure.lang.Numbers.throwIntOverflow
 (defn factorial [num]
   (if (<= num 1)
-    1 (* num (factorial (- num 1)))
+    1 (* num (factorial (dec num)))
     )
   )
+
+
+;;our goal is to try to improve the previous implementation
+(defn factorial2 [num]
+  (reduce * (range 1 (inc num)))
+  )
+
+(defn factorialForlargeNumbers [num]
+  ((fn [product counter max-count]
+     (if (> counter max-count)
+       product
+       (recur (apply *' [counter product])
+              (inc counter)
+              max-count)))
+    1 1 num))
