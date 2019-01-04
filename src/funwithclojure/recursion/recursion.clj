@@ -20,11 +20,12 @@
 ;;our goal is to try to improve the previous implementation
 ;but still plague with the flaw  of previous numbers
 (defn factorial2 [num]
-  (reduce * (range 1 (inc num)))
+  (reduce * (range 1 (inc (long num))))
   )
 
 ;this function will return the fatorial fro large numbers and also for small numbers less than 20
 ; this implementation will work for large numbers
+;I got this solution from Carlos D suggestion on stack-over-flow
 
 (defn factorialForlargeNumbers [num]
   ((fn [product counter max-count]
@@ -32,5 +33,5 @@
        product
        (recur (apply *' [counter product])
               (inc counter)
-              max-count)))
-    1 1 num))
+              max-count))) 1 1 num)
+  )
