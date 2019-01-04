@@ -18,9 +18,13 @@
 
 
 ;;our goal is to try to improve the previous implementation
+;but still plague with the flaw  of previous numbers
 (defn factorial2 [num]
   (reduce * (range 1 (inc num)))
   )
+
+;this function will return the fatorial fro large numbers and also for small numbers less than 20
+; this implementation will work for large numbers
 
 (defn factorialForlargeNumbers [num]
   ((fn [product counter max-count]
